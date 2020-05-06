@@ -1,0 +1,87 @@
+body {
+    background-color: #00eaff; 
+    font-family: 'Raleway', sans-serif:
+  }
+  nav{
+    background-color: #ffff; 
+    position: fixed;
+    top:0;
+    left:0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+  }
+  nav ul li {
+   float: right;
+   margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+  }
+  #brand {
+    float: left;
+  }
+  .nav-link {
+    color: #0022ff;
+    text-decoration: none;
+    font-family: 'acme', sans-serif;
+  }
+  .nav-link:hover {
+    color:lightblue;
+    font-weight: bold;
+  }
+  #brand .nav-link {
+    color: #ff0000;
+    font-size: 14pt;
+  }
+  #brand .nav-link:hover;{
+    color: #00000;
+  }
+  h1 {
+    font-size:60pt;
+    font-family: 'acme', sans-serif;
+  }
+  #home {
+    margin-top: 60pt; 
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 30vw;
+    padding-top:3em;
+    background: url('https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1033&q=80') center 75% no-repeat fixed;
+    background-size:cover
+  }
+  .header-tag{
+    text-align: center;
+    color: blue;
+    text-shadow: 2px 2px 2px black;
+  }
+  .header-tag {
+    margin-top: 20px;
+    font-size: 30pt;
+  }
+  h2{
+      font-famiy: 'acme', sans-serif;
+      color: blueviolet
+  }
+  .main {
+      text-align: center;
+  }
+  #about {
+       margin-top: 50px;
+       display: inline-block;
+  }
+  #about-picture {
+      width: 30vw;
+      float: left;
+  }
+  #profile-pic {
+      height: 300px;
+      width: 300px;
+      object-fit: cover;
+      border-radius: o.4em;
+      box-shadow: 2px 2px 2px black;
+  }
+  #about-content {
+      width: 40vw;
+      float: right;
+  }
